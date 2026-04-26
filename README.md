@@ -1,14 +1,23 @@
-# Sales & Time Series Analysis (Python)
+# Sales & Time Series Analysis
 
-# Overview
-This project was developed as part of the Code First Girls Python programme and was awarded **1st place in the competition** (sponsored by Bank of America).
+> 1st Place — Code First Girls Python Competition (sponsored by Bank of America)
 
-It explores sales data and gold price trends using Python to understand cumulative growth, volatility, and long-term patterns.
+## Overview
+Exploratory analysis of sales trends and gold price data using Python, 
+examining cumulative growth, month-on-month changes, and long-term patterns.
 
----
+## Methods
+- Cumulative sales growth (NumPy + manual implementation)
+- Month-on-month absolute and percentage change
+- Yearly gold price averaging (GBP) to smooth volatility
 
-# Objective
-The goal of this project is to:
-- Analyse sales performance over time  
-- Measure month-on-month changes and growth rates  
-- Compare long-term trends using gold price data  
+## Technologies
+Python, NumPy, CSV
+
+## Files
+- `sales_analysis.py` — main analysis script
+- `data/sales.csv` — monthly sales data
+- `data/gold.csv` — historical gold prices (GBP)
+
+## How to Run
+Run `sales_analysis.py` in any Python environment.
