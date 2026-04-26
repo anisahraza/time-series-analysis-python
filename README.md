@@ -16,8 +16,7 @@ Python, NumPy, CSV
 
 ## Files
 - `sales_analysis.py` — main analysis script
-- `data/sales.csv` — monthly sales data
-- `data/gold.csv` — historical gold prices (GBP)
+- Analysis uses sample sales and historical gold price (GBP) data provided by CFG
 
 ## How to Run
 Run `sales_analysis.py` in any Python environment.
